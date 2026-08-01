@@ -1,7 +1,24 @@
 aid: rise-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rise-robotics.png
 name: Rise Robotics
-description: Rise Robotics is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'RISE Robotics develops industrial linear-actuation technology designed to replace traditional
+  hydraulic systems. Its flagship Beltdraulic Cylinder is a fluid-free hydraulic alternative delivering
+  faster actuation, higher reliability, no fire hazard, and fuel-source flexibility for large-scale
+  industrial applications. The company builds actuation products (Beltdraulic Cylinder, Railgate,
+  SuperJammer, CLD) for Tier 1 suppliers, OEMs, and the US Department of Defense. RISE Robotics is a
+  hardware and heavy-equipment company backed by Techstars; it publishes no developer API, SDK, or
+  developer portal, so this API Evangelist profile captures identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/rise-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Robotics
+- Actuation
+- Industrial
+- Hardware
+- Defense
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/rise-robotics-domain-security.yml
 - type: Website
   url: https://riserobotics.com/
