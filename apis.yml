@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Robotics
@@ -60,6 +60,10 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- url: https://www.riserobotics.com/press
+  type: Blog
+- url: https://www.riserobotics.com/press?format=rss
+  type: BlogRSS
 - type: DomainSecurity
   url: security/rise-robotics-domain-security.yml
 - type: Website
